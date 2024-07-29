@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply overscroll-none
+}
+
+label{
+    @apply text-gray-700 text-sm
+}
+label+input{
+    margin-top: -2px
+}
+label+select{
+    margin-top: -2px
+}
+
+input, select, textarea{
+    @apply p-2;
+    @apply mb-2 rounded-lg text-black border;
+}
